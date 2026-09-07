@@ -1,0 +1,52 @@
+@use 'mixins' as *;
+
+body {
+	font-family: var(--e-font-sans);
+	font-size: var(--e-text-md);
+	line-height: var(--e-leading-body);
+	color: var(--e-fg);
+	background: var(--e-bg);
+	-webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	line-height: var(--e-leading-tight);
+	letter-spacing: var(--e-tracking-tight);
+	text-wrap: balance;
+}
+
+h1 {
+	font-size: var(--e-text-3xl);
+	font-weight: var(--e-weight-bold);
+}
+
+h2 {
+	font-size: var(--e-text-2xl);
+	font-weight: var(--e-weight-semibold);
+}
+
+h3 {
+	font-size: var(--e-text-xl);
+	font-weight: var(--e-weight-semibold);
+}
+
+code,
+kbd,
+samp {
+	@include mono;
+
+	font-size: 0.9em;
+}
+
+a {
+	color: var(--e-accent);
+	text-underline-offset: 0.15em;
+}
+
+::selection {
+	color: var(--e-accent-fg);
+	background: var(--e-accent);
+}

@@ -1,0 +1,44 @@
+{
+	"BRAND_FIRST": "Cacho",
+	"BRAND_SECOND": "Cursos",
+	"BRAND_TAGLINE": "Learn by playing",
+
+	"COMMON_LANGUAGE": "Language",
+	"COMMON_CHART": "chart",
+
+	"INDEX_TITLE": "CachoCursos",
+	"INDEX_DESCRIPTION": "Interactive courses where you learn by playing: every concept comes with a minigame you have to solve.",
+	"INDEX_HERO_TITLE": "Learn by playing with the pieces",
+	"INDEX_CHAPTER_COUNT": "{count} chapters",
+	"INDEX_HOURS": "about {hours} h",
+	"INDEX_BADGE_DONE": "Completed",
+	"INDEX_BADGE_STARTED": "Started",
+	"INDEX_BADGE_SOON": "Coming soon",
+
+	"COURSE_BACK_TO_INDEX": "← All courses",
+	"COURSE_PROGRESS": "{done} of {total} completed",
+	"COURSE_BADGE_DONE": "Done",
+	"COURSE_BADGE_LOCKED": "Locked",
+	"COURSE_MINUTES": "{minutes} min",
+
+	"CHAPTER_EYEBROW": "Chapter {order}",
+	"CHAPTER_STEP_OF": "Step {current} of {total}",
+	"CHAPTER_LOCKED_TITLE": "This chapter is still locked",
+	"CHAPTER_LOCKED_BODY": "Finish the previous chapter to unlock “{title}”.",
+	"CHAPTER_BACK_TO_COURSE": "Back to the course map",
+	"CHAPTER_NEXT": "Next chapter",
+	"CHAPTER_COURSE_END": "End of the course",
+	"CHAPTER_COURSE_END_TITLE": "You finished CachoCursos",
+
+	"CHALLENGE_BADGE_SOLVED": "Solved",
+	"CHALLENGE_BADGE_PENDING": "Challenge",
+	"CHALLENGE_HINT": "Hint ({shown}/{total})",
+	"CHALLENGE_RESET": "Reset",
+	"CHALLENGE_RETRY": "Not yet. Try again.",
+
+	"STEP_CONTINUE": "Continue",
+	"STEP_LOCKED_HINT": "Solve the challenge to continue",
+
+	"ERROR_NO_COURSE": "No such course",
+	"ERROR_NO_CHAPTER": "No such chapter"
+}

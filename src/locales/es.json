@@ -1,0 +1,44 @@
+{
+	"BRAND_FIRST": "Cacho",
+	"BRAND_SECOND": "Cursos",
+	"BRAND_TAGLINE": "Aprende jugando",
+
+	"COMMON_LANGUAGE": "Idioma",
+	"COMMON_CHART": "gráfica",
+
+	"INDEX_TITLE": "CachoCursos",
+	"INDEX_DESCRIPTION": "Cursos interactivos donde se aprende jugando: cada concepto tiene un minijuego que hay que resolver.",
+	"INDEX_HERO_TITLE": "Aprende jugando con las piezas",
+	"INDEX_CHAPTER_COUNT": "{count} capítulos",
+	"INDEX_HOURS": "{hours} h aprox.",
+	"INDEX_BADGE_DONE": "Completado",
+	"INDEX_BADGE_STARTED": "Empezado",
+	"INDEX_BADGE_SOON": "Próximamente",
+
+	"COURSE_BACK_TO_INDEX": "← Todos los cursos",
+	"COURSE_PROGRESS": "{done} de {total} completados",
+	"COURSE_BADGE_DONE": "Hecho",
+	"COURSE_BADGE_LOCKED": "Bloqueado",
+	"COURSE_MINUTES": "{minutes} min",
+
+	"CHAPTER_EYEBROW": "Capítulo {order}",
+	"CHAPTER_STEP_OF": "Paso {current} de {total}",
+	"CHAPTER_LOCKED_TITLE": "Este capítulo todavía está bloqueado",
+	"CHAPTER_LOCKED_BODY": "Termina el capítulo anterior para desbloquear «{title}».",
+	"CHAPTER_BACK_TO_COURSE": "Volver al mapa del curso",
+	"CHAPTER_NEXT": "Siguiente capítulo",
+	"CHAPTER_COURSE_END": "Fin del curso",
+	"CHAPTER_COURSE_END_TITLE": "Has terminado CachoCursos",
+
+	"CHALLENGE_BADGE_SOLVED": "Resuelto",
+	"CHALLENGE_BADGE_PENDING": "Reto",
+	"CHALLENGE_HINT": "Pista ({shown}/{total})",
+	"CHALLENGE_RESET": "Reiniciar",
+	"CHALLENGE_RETRY": "Todavía no. Inténtalo otra vez.",
+
+	"STEP_CONTINUE": "Continuar",
+	"STEP_LOCKED_HINT": "Resuelve el reto para continuar",
+
+	"ERROR_NO_COURSE": "Ese curso no existe",
+	"ERROR_NO_CHAPTER": "Ese capítulo no existe"
+}
