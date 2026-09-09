@@ -11,7 +11,14 @@ export default defineConfig({
 				runes: ({ filename }) =>
 					filename.split(/[/\\]/).includes('node_modules') ? undefined : true
 			},
-			adapter: adapter({ pages: 'build', assets: 'build', strict: true }),
+			adapter: adapter({
+				pages: 'build',
+				assets: 'build',
+				strict: true,
+				// GitHub Pages sirve su propio 404; este lo sustituye por la app, que
+				// resuelve la ruta en el cliente si el fichero estático no se encuentra.
+				fallback: '404.html'
+			}),
 			alias: {
 				$ui: 'src/lib/ui',
 				$state: 'src/lib/state',
