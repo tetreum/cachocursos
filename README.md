@@ -1,42 +1,28 @@
-# sv
+# CachoCursos
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+Interactive courses you learn by playing. Every chapter explains an idea and then
+hands you a minigame that makes you use it, so the concept sticks before you move on.
 
-## Creating a project
+**[cachocursos on GitHub Pages →](https://tetreum.github.io/cachocursos/)**
 
-If you're seeing this, you've probably already done this step. Congrats!
+![The LLM course map](docs/screenshot.png)
 
-```sh
-# create a new project
-npx sv create my-app
-```
+## What's inside
 
-To recreate this project with the same configuration:
+One course so far: **LLMs**, fourteen chapters from "what is a language model?" to
+putting an invisible watermark on generated text. Available in Spanish and English.
 
-```sh
-# recreate this project
-npx sv@0.17.0 create --template minimal --types ts --add prettier eslint vitest="usages:unit,component" sveltekit-adapter="adapter:static" --no-download-check --install npm .
-```
+Nothing is faked. The tokeniser really trains, the neural network really learns by
+backpropagation, and the watermark is really detected — all of it running in your
+browser, with no server and no API calls.
 
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## Running it
 
 ```sh
+npm install
 npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
 ```
 
-## Building
+Other commands: `npm test`, `npm run check`, `npm run lint`, `npm run build`.
 
-To create a production version of your app:
-
-```sh
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+Built with SvelteKit and deployed to GitHub Pages on every push to `master`.
